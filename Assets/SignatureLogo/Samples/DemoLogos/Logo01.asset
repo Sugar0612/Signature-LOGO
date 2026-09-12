@@ -1,0 +1,6091 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b96f979eb6b18f4cb263fc974dd5c62, type: 3}
+  m_Name: Logo01
+  m_EditorClassIdentifier: Assembly-CSharp::SignatureLogo.LogoDefinition
+  mask: {fileID: 2800000, guid: 698fb8f4e2b99e04db49f62b517f91cc, type: 3}
+  pixelsPerUnit: 100
+  cellSize: 5
+  alphaThreshold: 0.5
+  densityByAlpha: 1
+  maxPoints: 0
+  seed: 12345
+  pointScale: 1
+  seamlessTiling: 1
+  bakedPoints:
+  - position: {x: -2.98, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0
+  - position: {x: -2.98, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0
+  - position: {x: -2.98, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0
+  - position: {x: -2.93, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.008333325
+  - position: {x: -2.93, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.008333325
+  - position: {x: -2.93, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.008333325
+  - position: {x: -2.93, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.008333325
+  - position: {x: -2.93, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.008333325
+  - position: {x: -2.93, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.008333325
+  - position: {x: -2.88, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.88, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.01666665
+  - position: {x: -2.83, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.83, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.025000015
+  - position: {x: -2.78, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.78, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.033333343
+  - position: {x: -2.73, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.73, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.041666668
+  - position: {x: -2.68, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.68, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.049999993
+  - position: {x: -2.63, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.63, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.05833332
+  - position: {x: -2.58, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.58, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.066666685
+  - position: {x: -2.53, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.53, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.07500001
+  - position: {x: -2.48, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.083333336
+  - position: {x: -2.48, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.083333336
+  - position: {x: -2.48, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.083333336
+  - position: {x: -2.48, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.083333336
+  - position: {x: -2.48, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.083333336
+  - position: {x: -2.48, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.083333336
+  - position: {x: -2.48, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.083333336
+  - position: {x: -2.43, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.43, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09166666
+  - position: {x: -2.38, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.38, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.09999999
+  - position: {x: -2.33, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.33, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.10833335
+  - position: {x: -2.08, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.15000002
+  - position: {x: -2.08, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.15000002
+  - position: {x: -2.03, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.15833335
+  - position: {x: -2.03, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.15833335
+  - position: {x: -2.03, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.15833335
+  - position: {x: -2.03, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.15833335
+  - position: {x: -1.98, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.16666667
+  - position: {x: -1.98, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.16666667
+  - position: {x: -1.98, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.16666667
+  - position: {x: -1.98, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.16666667
+  - position: {x: -1.93, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.17500001
+  - position: {x: -1.93, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.17500001
+  - position: {x: -1.93, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.17500001
+  - position: {x: -1.93, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.17500001
+  - position: {x: -1.93, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.17500001
+  - position: {x: -1.88, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.18333334
+  - position: {x: -1.88, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.18333334
+  - position: {x: -1.88, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.18333334
+  - position: {x: -1.88, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.18333334
+  - position: {x: -1.88, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.18333334
+  - position: {x: -1.88, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.18333334
+  - position: {x: -1.88, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.18333334
+  - position: {x: -1.83, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.83, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.19166666
+  - position: {x: -1.78, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.78, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.2
+  - position: {x: -1.73, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.73, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.20833333
+  - position: {x: -1.68, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.21666668
+  - position: {x: -1.68, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.21666668
+  - position: {x: -1.68, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.21666668
+  - position: {x: -1.68, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.21666668
+  - position: {x: -1.68, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.21666668
+  - position: {x: -1.68, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.21666668
+  - position: {x: -1.68, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.21666668
+  - position: {x: -1.63, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.22500001
+  - position: {x: -1.63, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.22500001
+  - position: {x: -1.63, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.22500001
+  - position: {x: -1.63, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.22500001
+  - position: {x: -1.63, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.22500001
+  - position: {x: -1.63, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.22500001
+  - position: {x: -1.58, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.23333333
+  - position: {x: -1.58, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.23333333
+  - position: {x: -1.58, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.23333333
+  - position: {x: -1.58, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.23333333
+  - position: {x: -1.53, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.24166667
+  - position: {x: -1.53, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.24166667
+  - position: {x: -1.53, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.24166667
+  - position: {x: -1.53, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.24166667
+  - position: {x: -1.48, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.25
+  - position: {x: -1.48, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.25
+  - position: {x: -1.48, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.25
+  - position: {x: -1.48, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.25
+  - position: {x: -1.43, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.25833336
+  - position: {x: -1.43, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.25833336
+  - position: {x: -1.18, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.18, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.3
+  - position: {x: -1.13, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.13, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.30833334
+  - position: {x: -1.08, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.08, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.31666666
+  - position: {x: -1.03, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -1.03, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.32500002
+  - position: {x: -0.98, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.98, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.33333334
+  - position: {x: -0.93, y: 0.73, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.93, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.34166667
+  - position: {x: -0.88, y: 0.73, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.88, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35
+  - position: {x: -0.83, y: 0.73, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.83, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.35833335
+  - position: {x: -0.78, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.78, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.36666667
+  - position: {x: -0.73, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.73, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.375
+  - position: {x: -0.68, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.68, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.38333333
+  - position: {x: -0.63, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.63, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.39166668
+  - position: {x: -0.58, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.58, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.4
+  - position: {x: -0.53, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.53, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.40833333
+  - position: {x: -0.33, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.44166666
+  - position: {x: -0.33, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.44166666
+  - position: {x: -0.33, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.44166666
+  - position: {x: -0.33, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.44166666
+  - position: {x: -0.28, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.28, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45
+  - position: {x: -0.23, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.23, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.45833334
+  - position: {x: -0.18, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.18, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.46666667
+  - position: {x: -0.13, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.13, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.475
+  - position: {x: -0.08, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.08, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.48333335
+  - position: {x: -0.03, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: -0.03, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.49166667
+  - position: {x: 0.02, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.02, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5
+  - position: {x: 0.07, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.07, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5083333
+  - position: {x: 0.12, y: 0.73, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.12, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.51666665
+  - position: {x: 0.17, y: 0.73, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.17, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.525
+  - position: {x: 0.22, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.22, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.53333336
+  - position: {x: 0.27, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.27, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5416667
+  - position: {x: 0.32, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.32, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55
+  - position: {x: 0.37, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.37, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.55833334
+  - position: {x: 0.57, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.57, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.57, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.57, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.57, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.57, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.57, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.57, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.5916667
+  - position: {x: 0.62, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.62, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6
+  - position: {x: 0.67, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.67, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.60833335
+  - position: {x: 0.72, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.72, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6166667
+  - position: {x: 0.77, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.77, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.625
+  - position: {x: 0.82, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.82, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6333333
+  - position: {x: 0.87, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.87, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.64166665
+  - position: {x: 0.92, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: 0.03, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.92, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65
+  - position: {x: 0.97, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.53, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.48, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.28, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.23, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.18, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.13, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: 0.08, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 0.97, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.65833336
+  - position: {x: 1.02, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.02, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.6666667
+  - position: {x: 1.07, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.07, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.675
+  - position: {x: 1.12, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.12, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.68333334
+  - position: {x: 1.17, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.17, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.69166666
+  - position: {x: 1.22, y: 0.68, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: 0.63, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: 0.58, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.22, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7
+  - position: {x: 1.27, y: 0.43, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7083333
+  - position: {x: 1.27, y: 0.38, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7083333
+  - position: {x: 1.27, y: 0.33, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7083333
+  - position: {x: 1.27, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7083333
+  - position: {x: 1.27, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7083333
+  - position: {x: 1.27, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7083333
+  - position: {x: 1.27, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7083333
+  - position: {x: 1.42, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.73333335
+  - position: {x: 1.47, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.47, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7416667
+  - position: {x: 1.52, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.52, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.75
+  - position: {x: 1.57, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.57, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7583333
+  - position: {x: 1.62, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.62, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.76666665
+  - position: {x: 1.67, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.67, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.775
+  - position: {x: 1.72, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.72, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.78333336
+  - position: {x: 1.77, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.77, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.7916667
+  - position: {x: 1.82, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.82, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8
+  - position: {x: 1.87, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.87, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.80833334
+  - position: {x: 1.92, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.92, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.81666666
+  - position: {x: 1.97, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 1.97, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.825
+  - position: {x: 2.02, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.02, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.8333333
+  - position: {x: 2.07, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.07, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84166664
+  - position: {x: 2.12, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.12, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.84999996
+  - position: {x: 2.37, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.37, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.89166665
+  - position: {x: 2.42, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.42, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90000004
+  - position: {x: 2.47, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.47, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.90833336
+  - position: {x: 2.52, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.52, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9166667
+  - position: {x: 2.57, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.57, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.925
+  - position: {x: 2.62, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.62, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.93333334
+  - position: {x: 2.67, y: -0.27, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.67, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.94166666
+  - position: {x: 2.72, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.72, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.95
+  - position: {x: 2.77, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.77, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9583333
+  - position: {x: 2.82, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.82, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.96666664
+  - position: {x: 2.87, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.87, y: -0.97, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.97499996
+  - position: {x: 2.92, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.47, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.92, y: -0.92, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.98333335
+  - position: {x: 2.97, y: -0.32, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.37, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.42, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.62, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.67, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.72, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.77, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.82, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 2.97, y: -0.87, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 0.9916667
+  - position: {x: 3.02, y: -0.52, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 1
+  - position: {x: 3.02, y: -0.57, z: 0}
+    rotationZ: 0
+    scale: 1
+    normalizedX: 1
+  bakedWidth: 6.7
+  bakedHeight: 3.58
+  bakeSignature: g2|Logo_text|670x358|100|5|0.5|True|0|12345|1|True
