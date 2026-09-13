@@ -10,7 +10,7 @@ namespace SignatureLogo
 {
     /// 系统唯一 MonoBehaviour 门面：
     /// - 组装依赖图（仓库/池/两个控制器）
-    /// - 显式实现 ISignatureLogoVisualizer.Start（避免与 Unity 生命周期消息 Start() 冲突）
+    /// - 显式实现 ISignatureLogoVisualizer 的 Start/Stop（避免与 Unity 生命周期消息重名冲突）
     /// - 唯一 LateUpdate 驱动状态机（Formation 完成判定 / 切换计时）
     [DisallowMultipleComponent]
     [AddComponentMenu("SignatureLogo/Signature Logo Visualizer")]
@@ -64,9 +64,10 @@ namespace SignatureLogo
         public event Action<int> LogoFormationStarted;
         public event Action<int> LogoFormationCompleted;
 
-        // ---------------- 公开 API（显式接口实现，Unity 不会把它当生命周期消息调用） ----------------
+        // ---------------- 公开 API（显式接口实现，Unity 不会把它们当生命周期消息调用） ----------------
 
         void ISignatureLogoVisualizer.Start() { EnterLogoMode(); }
+        void ISignatureLogoVisualizer.Stop() { ExitLogoMode(); }
 
         public void AddSprite(Sprite sprite)
         {
@@ -86,6 +87,12 @@ namespace SignatureLogo
             if (State == VisualizerState.Forming || State == VisualizerState.Holding)
             {
                 _composition.BreakFormation();
+                _pool.ReleaseAll();
+                State = VisualizerState.Idle;
+            }
+            else if (State == VisualizerState.Stopped)
+            {
+                // 停止状态下清空：冻结的画面也随之消失
                 _pool.ReleaseAll();
                 State = VisualizerState.Idle;
             }
@@ -134,6 +141,7 @@ namespace SignatureLogo
                     break;
 
                 case VisualizerState.Idle:
+                case VisualizerState.Stopped: // 画面冻结，什么都不推进
                     break;
             }
         }
@@ -159,10 +167,31 @@ namespace SignatureLogo
             {
                 BeginLogoSequence(0);
             }
+            else if (State == VisualizerState.Stopped)
+            {
+                // 恢复播放：BuildLogo 的重飞逻辑会把冻结的旧画面收走，签名重新飞入拼接当前 Logo
+                int resume = CurrentLogoIndex >= 0 ? CurrentLogoIndex : 0;
+                if (resume >= CountUsableLogos()) resume = 0;
+                BeginLogoSequence(resume);
+            }
             else
             {
                 Debug.LogWarning("[SignatureLogo] Start() 被忽略：已处于 Logo 模式。", this);
             }
+        }
+
+        void ExitLogoMode()
+        {
+            if (State != VisualizerState.Forming && State != VisualizerState.Holding)
+            {
+                Debug.LogWarning("[SignatureLogo] Stop() 被忽略：当前不在播放中。", this);
+                return;
+            }
+
+            // 单纯停止：冻结画面（签名停在当前位置），不清空 Sprites、不隐藏、不回池
+            _composition.FreezeFormation();
+            _sequenceCtrl.StopHold();
+            State = VisualizerState.Stopped;
         }
 
         void BeginLogoSequence(int logoIndex)

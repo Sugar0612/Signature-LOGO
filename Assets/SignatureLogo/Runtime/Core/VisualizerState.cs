@@ -8,6 +8,8 @@ namespace SignatureLogo
         /// 正在从左到右组装当前 Logo。
         Forming,
         /// Formation 完成，等待 LogoSwitchInterval 后切换下一个 Logo。
-        Holding
+        Holding,
+        /// 已停止：画面冻结在当前位置（签名保留），轮换计时停止；Start() 恢复播放。
+        Stopped
     }
 }

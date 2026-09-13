@@ -37,6 +37,9 @@ namespace SignatureLogo.EditorTools
             var feeder = go.GetComponent<DemoSignatureFeeder>();
             if (feeder == null) feeder = go.AddComponent<DemoSignatureFeeder>();
 
+            var tester = go.GetComponent<SignatureKeyboardTester>();
+            if (tester == null) tester = go.AddComponent<SignatureKeyboardTester>();
+
             var so = new SerializedObject(viz);
             var logosProp = so.FindProperty("logos");
             logosProp.arraySize = 2;

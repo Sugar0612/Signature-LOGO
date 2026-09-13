@@ -7,7 +7,7 @@ using UnityEngine;
 namespace SignatureLogo
 {
     /// 对外唯一接入契约。签名团队持本接口引用调用（GetComponent&lt;ISignatureLogoVisualizer&gt;()）。
-    /// 注意：Start 与 MonoBehaviour 生命周期消息重名，实现类用显式接口实现规避。
+    /// 注意：Start/Stop 与 MonoBehaviour 生命周期消息重名，实现类用显式接口实现规避。
     /// 所有成员仅支持主线程调用。
     public interface ISignatureLogoVisualizer
     {
@@ -29,7 +29,12 @@ namespace SignatureLogo
         void ClearSprites();
 
         /// 进入 Logo Formation 循环（从左到右拼接 → 等待 → 下一个 Logo → 无限循环）。
+        /// 在 Stopped 状态调用 = 恢复播放（签名重新飞入拼接当前 Logo）。
         void Start();
+
+        /// 停止播放：冻结当前画面——签名停在当前位置，不清空、不隐藏，切换计时停止。
+        /// 再次 Start() 恢复播放。只影响播放状态，不动 Sprites 数据。
+        void Stop();
 
         /// 某个 Logo 开始 Formation（参数：Logo 序号）。
         event Action<int> LogoFormationStarted;

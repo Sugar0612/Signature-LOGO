@@ -116,6 +116,13 @@ namespace SignatureLogo
             FormationEndTime = now + _formation.staggerDuration + _formation.moveDuration + _formation.popDuration + 0.05f;
         }
 
+        /// 停止播放：冻结当前画面——Kill 全部补间（签名停在当前位置），不清屏、不回池、保留单位跟踪。
+        public void FreezeFormation()
+        {
+            for (int i = 0; i < _units.Count; i++) _units[i].CachedTransform.DOKill();
+            CompletionPending = false;
+        }
+
         /// 立即停止 Formation：Kill 全部补间并清空跟踪（单位仍由池出租，供下次 Formation 复用）。
         public void BreakFormation()
         {

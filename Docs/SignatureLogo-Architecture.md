@@ -60,10 +60,11 @@
 
 ## 4. 状态机
 
-`enum VisualizerState { Idle, Forming, Holding }`
+`enum VisualizerState { Idle, Forming, Holding, Stopped }`
 
 - Idle --Start()--> Forming --完成--> Holding --到 LogoSwitchInterval--> Forming(下一个，取模回绕，无限循环)
-- 边界：无 Sprite 时 Start() 记警告保持 Idle（`autoStartWhenSpritesReady` 可选自动开始）；重复 Start() 忽略；`LogoSwitchInterval≤0` 钳制为 1（运行时改 API 立即生效）；切换计时从 Formation 完成才启动；运行中 AddSprite 下次 Formation 快照生效；ClearSprites 立即停止显示回 Idle。
+- Forming/Holding --Stop()--> Stopped（画面冻结：签名停在当前位置，不清空不隐藏，计时停止）--Start()--> Forming（重飞当前 Logo，恢复播放）
+- 边界：无 Sprite 时 Start() 记警告保持 Idle（`autoStartWhenSpritesReady` 可选自动开始）；重复 Start() 忽略；`LogoSwitchInterval≤0` 钳制为 1（运行时改 API 立即生效）；切换计时从 Formation 完成才启动；运行中 AddSprite 下次 Formation 快照生效；ClearSprites 立即停止显示回 Idle（Stopped 状态下调用会连同冻结画面一起清掉）。
 
 ## 5. Logo Mask → TargetPoint（烘焙主路径 + 运行时回退）
 
@@ -111,7 +112,8 @@ public interface ISignatureLogoVisualizer {
     float  LogoSwitchInterval { get; set; }       // 默认15，≤0 钳为 1，运行时可改
     VisualizerState State { get; }
     void   AddSprite(Sprite sprite);  void AddSprites(IEnumerable<Sprite> sprites);  void ClearSprites();
-    void   Start();                               // 无限 Logo 循环
+    void   Start();                               // 无限 Logo 循环；Stopped 状态下调用=恢复播放
+    void   Stop();                                // 纯停止：冻结当前画面（不清空），计时停止
     event Action<int> LogoFormationStarted;
     event Action<int> LogoFormationCompleted;
 }
