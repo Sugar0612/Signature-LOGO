@@ -271,11 +271,12 @@ namespace SignatureLogo
 
         float ComputeTargetScale(Sprite sprite, in TargetPoint point, float baseScale)
         {
-            // 拼贴模式：签名世界宽度 = 网格间距 → 相邻签名恰好相接、不重叠
+            // 拼贴模式：签名世界宽度 = 网格间距 × tileScale
+            // （tileScale > 1 时相邻签名相互重叠，扁宽的签名图才能填满行间空隙、笔画更实）
             if (_tiling && sprite != null)
             {
                 float width = sprite.bounds.size.x;
-                if (width > 0.0001f) return _spacing / width;
+                if (width > 0.0001f) return _spacing * _rendering.tileScale / width;
             }
             float jitter = 1f - _formation.scaleJitter * 0.5f + (float)_rng.NextDouble() * _formation.scaleJitter;
             return baseScale * point.scale * jitter;

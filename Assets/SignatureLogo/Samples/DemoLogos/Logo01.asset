@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SignatureLogo.LogoDefinition
   mask: {fileID: 2800000, guid: 698fb8f4e2b99e04db49f62b517f91cc, type: 3}
   pixelsPerUnit: 100
-  cellSize: 5
+  cellSize: 4
   alphaThreshold: 0.5
   densityByAlpha: 1
   maxPoints: 0

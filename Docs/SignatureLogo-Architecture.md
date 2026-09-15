@@ -1,6 +1,9 @@
-# Signature Logo 视觉系统 — 架构设计 v1.1
+# Signature Logo 视觉系统 — 架构设计 v1.2
 
 > 环境：Unity 6000.3.20f1 / URP 17.3 + DOTween 1.2.825。
+> **v1.2 变更**：新增**视频背景**（VideoBackground，1.mp4 循环铺底、Logo 深度天然在前）、
+> **签名描边**（SpriteOutline 着色器，亮背景保持可读）、**拼贴密度**（Tile Scale 重叠系数 + cellSize 调密）、
+> 飞入签名缩小（flyInWorldSize 0.9→0.5）、Resources 化自写着色器修复打包剥离、新增打包脚本。
 > **v1.1 变更**：应用户要求**移除球体模式**（Stop / Fibonacci 球 / 随机轴自转 / Scale Impact），
 > 系统只保留 **Logo 从左到右拼接 + 按间隔无限轮换**。接口相应移除 `Stop()` 与 `SphereAssembleCompleted`。
 > v1.1 同时包含：无缝拼贴模式、烘焙过期自检、透明度覆盖率自检、宽 Logo 防溢出适配。
@@ -124,9 +127,10 @@ public interface ISignatureLogoVisualizer {
 ## 9. Inspector 配置
 
 门面：Logos(SO数组) / Switch(LogoSwitchInterval=15) / Formation(stagger 2.0、move 0.6、margin、抖动、缓动) /
-Rendering(baseScale、tint、order、FitToCamera 宽高取小) / Pool(预热覆盖) / Debug(Gizmos、autoStart)。
+Rendering(baseScale、tint、order、FitToCamera 宽高取小、Outline 描边三参、tileScale 拼贴重叠系数) / Pool(预热覆盖) / Debug(Gizmos、autoStart)。
 `LogoDefinition`：mask、PPU、cellSize、alphaThreshold、densityByAlpha、maxPoints、seed、pointScale、seamlessTiling、烘焙产物。
 自定义 Inspector：过期警告 + **烘焙按钮** + 统计信息。
+`VideoBackground`（场景物体）：videoClip、loop、brightness、behindLogoDistance。
 
 ## 10. 性能方案
 
@@ -138,11 +142,15 @@ Rendering(baseScale、tint、order、FitToCamera 宽高取小) / Pool(预热覆�
 Assets/SignatureLogo/
   Runtime/  Core(VisualizerState/TargetPoint) Data(LogoDefinition/VisualizerSettings)
             Generation Distribution Pooling Composition Sequence Repository
+            Background(VideoBackground 视频背景) Shaders/Resources(SpriteOutline/VideoUnlit，Resources 保证进包)
             ISignatureLogoVisualizer.cs SignatureLogoVisualizer.cs Samples(TextSpriteFactory/两个Feeder)
   Editor/   LogoDefinitionEditor(烘焙) SignatureLogoDemoBuilder(演示场景) SignatureLogoSelfTests(自测)
+            SignatureLogoBuildScript(菜单/命令行打包 Win64)
+  Samples/  DemoLogos(Logo 资产) Signatures(签名 PNG) Vedio(背景视频 1.mp4)
 Docs/      本文档
 ```
 
 ## 12. 阶段记录
 
 P1-P5 已全部完成并经无头批处理验证（编译零错误 / 逻辑自测 / Play 全链路冒烟）。v1.1 移除球体模式后回归验证通过。
+v1.2：视频背景 / 描边 / 密集拼贴 / 打包修复（着色器 Resources 化）已实机打包验证（Windows x64，构建日志 Succeeded）。

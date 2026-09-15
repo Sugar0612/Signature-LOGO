@@ -97,6 +97,18 @@ public class SignatureTeamIntegration : MonoBehaviour
 
 ---
 
+## 视频背景（VideoBackground）
+
+演示场景中的 `VideoBackground` 物体把 `Assets/SignatureLogo/Samples/Vedio/1.mp4` 作为背景播放（循环、无声），拼贴 Logo 与飞行签名始终显示在视频**前面**。
+
+- 实现方式：运行时在 Logo 平面后方自动生成一块"铺满镜头"的世界空间 Quad（URP/Unlit 材质 + RenderTexture），靠深度排序天然压在签名后面，无需手工摆位；屏幕分辨率 / 相机 FOV 变化时自动重算（Cover 等比铺满、溢出裁边）。
+- Inspector 可调：`Loop`（循环播放）、`Brightness`（背景亮度，调低可让 Logo 更醒目）、`Behind Logo Distance`（背景 Quad 与 Logo 平面的间距）。
+- 更换背景视频：把新的 VideoClip 拖到 `VideoBackground` 组件的 `Video Clip` 槽即可。
+- 若签名在亮色视频画面上不够醒目，把 `Brightness` 调到 0.5~0.8。
+- **签名描边**：默认开启深色描边（字幕同款做法），金黄字迹贴在明亮视频上也能保持清晰；可在 `SignatureLogoVisualizer → Rendering` 里调整 `Outline Enabled / Outline Color / Outline Width`，黑背景演示时可关闭。
+
+---
+
 ## 美术 / 策划：如何添加一个 Logo
 
 1. 准备 Logo 剪影图：PNG、透明背景（文字 Logo 建议笔画粗一些，太细的笔画采样后容易断）。
@@ -127,7 +139,8 @@ public class SignatureTeamIntegration : MonoBehaviour
 |------|-----------|
 | 拼出的文字有空洞 | 烘焙数据过期（旧算法）→ 重新点"烘焙"；或 Cell Size 相对笔画太大 → 调小。拼贴模式自带桥接修复，正常不会再出洞 |
 | 切换时看不到"从相机身后飞入" | 把 Main Camera 的 Projection 改为 **Perspective**（透视下穿越感完整）；确认 Formation 的 `Cold Start Pose = NearCamera` |
-| 飞入的签名看不清 | 调大 Formation 的 `Fly In World Size`（默认 0.9 世界单位）；`Fly In Ease` 保持 InQuad（镜头前停留更久） |
+| 飞入的签名看不清 | 调大 Formation 的 `Fly In World Size`（签名飞过镜头时的绝对显示宽度，世界单位；越大越清晰、也越大）。演示场景当前 0.5（原 0.9，按需求缩小过）；`Fly In Ease` 保持 InQuad（镜头前停留更久） |
+| LOGO 拼出来不够醒目 / 不够密集 | 三处一起调：`Rendering → Target Height Fraction`（Logo 占屏比例，建议 0.9）；`Rendering → Tile Scale`（拼贴重叠系数，>1 时签名相互重叠、笔画更实，扁宽签名图建议 2 左右）；Logo 资产的 `Cell Size` 调小（网格更密，**改完需重新烘焙**） |
 | 帧率下降 | 减小目标点数量（调大 `Cell Size` 后重新烘焙）、调大 `Stagger Duration`（拉长波浪、减少同屏飞行数）、缩小 `Fly In World Size` |
 | 调了 LogoSwitchInterval 没反应 | 它立即生效，但只影响**下一个停留周期**；确认修改的是接口属性而非仅 Inspector 数值 |
 | Start 没反应 | 查 Console 警告：通常是无签名、或 Logo 未烘焙且贴图不可读 |
@@ -143,7 +156,7 @@ public class SignatureTeamIntegration : MonoBehaviour
 ## 目录
 
 ```
-Assets/SignatureLogo/Runtime   运行时（接口入口 ISignatureLogoVisualizer.cs / SignatureLogoVisualizer.cs）
+Assets/SignatureLogo/Runtime   运行时（接口入口 ISignatureLogoVisualizer.cs / SignatureLogoVisualizer.cs；Background/VideoBackground.cs = 视频背景）
 Assets/SignatureLogo/Editor    烘焙、演示场景生成、逻辑自测（Tools 菜单）
 Assets/Plugins/Demigiant       DOTween 1.2.825
 Docs/                          架构设计文档

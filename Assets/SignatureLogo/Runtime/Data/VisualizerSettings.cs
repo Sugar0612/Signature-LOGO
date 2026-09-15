@@ -80,5 +80,17 @@ namespace SignatureLogo
 
         [Tooltip("Logo 占视口尺寸的比例")]
         [Range(0.1f, 1f)] public float targetHeightFraction = 0.8f;
+
+        [Tooltip("给签名加深色描边（视频等亮背景下保持字迹醒目；黑背景上描边不可见、无副作用）")]
+        public bool outlineEnabled = true;
+
+        [Tooltip("描边颜色")]
+        public Color outlineColor = new Color(0f, 0f, 0f, 0.85f);
+
+        [Tooltip("描边宽度（按签名贴图纹素数计）")]
+        [Range(0f, 8f)] public float outlineWidth = 2.5f;
+
+        [Tooltip("拼贴模式放大系数：1 = 相邻签名恰好相接；>1 相互重叠、笔画更实更醒目。签名图越扁建议越大（宽高比 2:1 时建议 2 左右补齐竖向空隙）")]
+        [Min(0.5f)] public float tileScale = 1f;
     }
 }

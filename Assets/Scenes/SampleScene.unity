@@ -247,7 +247,7 @@ MonoBehaviour:
     coldStartPose: 1
     startBehindCamera: 1.5
     startSpreadRadius: 0.75
-    flyInWorldSize: 0.9
+    flyInWorldSize: 0.5
     flyInEase: 5
     staggerDuration: 2
     moveDuration: 0.6
@@ -263,7 +263,11 @@ MonoBehaviour:
     tint: {r: 1, g: 1, b: 1, a: 1}
     sortingOrder: 0
     fitToCameraHeight: 1
-    targetHeightFraction: 0.8
+    targetHeightFraction: 0.9
+    outlineEnabled: 1
+    outlineColor: {r: 0, g: 0, b: 0, a: 0.85}
+    outlineWidth: 2.5
+    tileScale: 2
   prewarmOverride: 0
   showTargetPointGizmos: 1
   autoStartWhenSpritesReady: 0
@@ -383,6 +387,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &261830911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261830912}
+  - component: {fileID: 261830913}
+  m_Layer: 0
+  m_Name: VideoBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261830912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261830911}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &261830913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261830911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433346cd78fe4d52b79128b9c624dfb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoClip: {fileID: 32900000, guid: 30286da2f2c5e4340acc4714d3a6eda7, type: 3}
+  loop: 1
+  brightness: 1
+  behindLogoDistance: 5
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,5 +858,6 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 120029074}
+  - {fileID: 261830912}
   - {fileID: 621650574}
   - {fileID: 152683975}

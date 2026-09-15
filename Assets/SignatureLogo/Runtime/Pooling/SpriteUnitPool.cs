@@ -12,6 +12,7 @@ namespace SignatureLogo
     {
         readonly Transform _parent;
         readonly RenderingSettings _rendering;
+        readonly Material _unitMaterial;
         readonly Stack<SpriteUnit> _free = new Stack<SpriteUnit>(64);
         readonly List<SpriteUnit> _leased = new List<SpriteUnit>(512);
         int _created;
@@ -25,6 +26,26 @@ namespace SignatureLogo
         {
             _parent = parent;
             _rendering = rendering;
+            _unitMaterial = BuildUnitMaterial(rendering);
+        }
+
+        /// 描边开启时返回全部单位共用的描边材质（SpriteRenderer 会按渲染器覆写 _MainTex）；
+        /// 关闭或着色器缺失时返回 null（保持 SpriteRenderer 默认材质）。
+        /// 着色器经 Resources.Load 获取：Resources 内资源始终打包进游戏，不会被剥离。
+        static Material BuildUnitMaterial(RenderingSettings rendering)
+        {
+            if (!rendering.outlineEnabled) return null;
+            var shader = Resources.Load<Shader>("SignatureSpriteOutline");
+            if (shader == null) shader = Shader.Find("SignatureLogo/SpriteOutline");
+            if (shader == null)
+            {
+                Debug.LogWarning("[SpriteUnitPool] 找不到 SignatureSpriteOutline 着色器，签名退回默认材质。");
+                return null;
+            }
+            var material = new Material(shader);
+            material.SetColor("_OutlineColor", rendering.outlineColor);
+            material.SetFloat("_OutlineWidth", rendering.outlineWidth);
+            return material;
         }
 
         public void Prewarm(int count)
@@ -77,6 +98,7 @@ namespace SignatureLogo
 
             unit.Renderer.color = _rendering.tint;
             unit.Renderer.sortingOrder = _rendering.sortingOrder;
+            if (_unitMaterial != null) unit.Renderer.sharedMaterial = _unitMaterial;
 
             go.SetActive(false);
             _free.Push(unit);
