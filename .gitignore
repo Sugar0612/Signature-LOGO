@@ -16,6 +16,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
+/Tools/previews/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
@@ -108,3 +109,7 @@ InitTestScene*.unity*
 
 # ZCode 工具产物
 .zcode/
+
+# Python / 本地压缩包
+__pycache__/
+/Build*.zip

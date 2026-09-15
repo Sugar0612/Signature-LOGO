@@ -9,6 +9,7 @@ namespace SignatureLogo
     {
         public string SourceName;
         public bool SeamlessTiling;
+        public bool BridgeThinStrokes;
         public Color32[] Pixels;
         public int Width;
         public int Height;
@@ -25,28 +26,30 @@ namespace SignatureLogo
     /// 算法：网格步进采样 + alpha 概率加权 + 种子抖动 →（可选洗牌限量）→ 本地坐标 → 按 X 排序 → 归一化 normalizedX。
     public static class LogoTargetGenerator
     {
-        public static TargetPoint[] Generate(
-            Texture2D mask, float pixelsPerUnit, float cellSize, float alphaThreshold,
-            bool densityByAlpha, int maxPoints, int seed, float pointScale, bool seamlessTiling = false)
+    public static TargetPoint[] Generate(
+        Texture2D mask, float pixelsPerUnit, float cellSize, float alphaThreshold,
+        bool densityByAlpha, int maxPoints, int seed, float pointScale, bool seamlessTiling = false,
+        bool bridgeThinStrokes = true)
+    {
+        if (mask == null) return Array.Empty<TargetPoint>();
+        var input = new LogoBakeInput
         {
-            if (mask == null) return Array.Empty<TargetPoint>();
-            var input = new LogoBakeInput
-            {
-                SourceName = mask.name,
-                SeamlessTiling = seamlessTiling,
-                Pixels = GetReadablePixels32(mask),
-                Width = mask.width,
-                Height = mask.height,
-                PixelsPerUnit = pixelsPerUnit,
-                CellSize = cellSize,
-                AlphaThreshold = alphaThreshold,
-                DensityByAlpha = densityByAlpha,
-                MaxPoints = maxPoints,
-                Seed = seed,
-                PointScale = pointScale
-            };
-            return Generate(in input);
-        }
+            SourceName = mask.name,
+            SeamlessTiling = seamlessTiling,
+            BridgeThinStrokes = bridgeThinStrokes,
+            Pixels = GetReadablePixels32(mask),
+            Width = mask.width,
+            Height = mask.height,
+            PixelsPerUnit = pixelsPerUnit,
+            CellSize = cellSize,
+            AlphaThreshold = alphaThreshold,
+            DensityByAlpha = densityByAlpha,
+            MaxPoints = maxPoints,
+            Seed = seed,
+            PointScale = pointScale
+        };
+        return Generate(in input);
+    }
 
         public static TargetPoint[] Generate(in LogoBakeInput input)
         {
@@ -89,8 +92,9 @@ namespace SignatureLogo
                 }
             }
 
-            // Pass 2（拼贴模式）：桥接修复——覆盖不足但邻居已占的格子补上，迭代至稳定，消除细笔画断裂与空洞
-            if (input.SeamlessTiling)
+            // Pass 2（拼贴模式）：桥接修复——覆盖不足但邻居已占的格子补上，迭代至稳定，消除细笔画断裂与空洞。
+            // 注意：粗笔画 Logo 应关闭（BridgeThinStrokes=false），否则复杂字内部的窄缝隙会被封死导致文字糊掉。
+            if (input.SeamlessTiling && input.BridgeThinStrokes)
             {
                 const float BridgeFloor = 0.15f;
                 for (int pass = 0; pass < 8; pass++)

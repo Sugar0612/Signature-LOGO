@@ -36,6 +36,9 @@ namespace SignatureLogo
         [Tooltip("无缝拼贴模式：目标点精确落在规则网格上（无抖动），运行时把签名宽度缩放到正好等于网格间距，实现不重叠的密铺。适合文字 Logo；此模式下 BaseScale 和各项抖动不生效")]
         public bool seamlessTiling = false;
 
+        [Tooltip("桥接修复：补采细笔画断裂的格子。粗笔画文字 Logo 建议关闭——它会把复杂字内部的窄缝隙也封死，导致文字糊成一团")]
+        public bool bridgeThinStrokes = true;
+
         [Header("Baked（由烘焙按钮生成，勿手改）")]
         public TargetPoint[] bakedPoints = Array.Empty<TargetPoint>();
 
@@ -53,10 +56,10 @@ namespace SignatureLogo
         public string ComputeBakeSignature()
         {
             if (mask == null) return null;
-            return "g2|" + mask.name + "|" + mask.width + "x" + mask.height +
+            return "g3|" + mask.name + "|" + mask.width + "x" + mask.height +
                    "|" + pixelsPerUnit + "|" + cellSize + "|" + alphaThreshold +
                    "|" + densityByAlpha + "|" + maxPoints + "|" + seed + "|" + pointScale +
-                   "|" + seamlessTiling;
+                   "|" + seamlessTiling + "|" + (bridgeThinStrokes ? 1 : 0);
         }
 
         /// 拼贴模式下相邻目标点的世界间距（cellSize / PPU）。

@@ -117,6 +117,7 @@ public class SignatureTeamIntegration : MonoBehaviour
 4. 关键参数：
    - `Cell Size`：采样步长（像素）= 拼贴"分辨率"，越小越精细、点数越多（点数≈按平方增长）
    - `Seamless Tiling`：文字 Logo 勾选（签名无缝密铺、完整无空洞）
+   - `Bridge Thin Strokes`：桥接修复。**细笔画/镂空图形开启**（补采断裂）；**粗笔画文字 Logo 关闭**——它会把复杂字内部的窄缝隙封死，导致"健康服"这类密笔画字糊成一团
    - `Max Points`：0 = 不限；需要控量时设置上限
 5. 点 **"烘焙目标点 (Bake Target Points)"** 按钮，Console 会输出点数。
 6. 把 LogoDefinition 资产拖进场景中 `SignatureLogoVisualizer` 的 `Logos` 数组（顺序 = 轮换顺序）。
@@ -141,6 +142,8 @@ public class SignatureTeamIntegration : MonoBehaviour
 | 切换时看不到"从相机身后飞入" | 把 Main Camera 的 Projection 改为 **Perspective**（透视下穿越感完整）；确认 Formation 的 `Cold Start Pose = NearCamera` |
 | 飞入的签名看不清 | 调大 Formation 的 `Fly In World Size`（签名飞过镜头时的绝对显示宽度，世界单位；越大越清晰、也越大）。演示场景当前 0.5（原 0.9，按需求缩小过）；`Fly In Ease` 保持 InQuad（镜头前停留更久） |
 | LOGO 拼出来不够醒目 / 不够密集 | 三处一起调：`Rendering → Target Height Fraction`（Logo 占屏比例，建议 0.9）；`Rendering → Tile Scale`（拼贴重叠系数，>1 时签名相互重叠、笔画更实，扁宽签名图建议 2 左右）；Logo 资产的 `Cell Size` 调小（网格更密，**改完需重新烘焙**） |
+| 复杂字（笔画密的字）糊成一团 | 关闭该 Logo 资产的 `Bridge Thin Strokes`（桥接修复会把复杂字内部的窄缝隙封死，粗笔画文字 Logo 应关闭），并把 `Cell Size` 降到字内窄缝宽度以下（如 3）；**改完需重新烘焙** |
+| 调参不想反复进 Unity 试 | 用 `Tools/mosaic_*.py` 离线预览：复刻真实采样算法 + 真实签名图，渲染不同参数组合的对比图（依赖 Python + Pillow） |
 | 帧率下降 | 减小目标点数量（调大 `Cell Size` 后重新烘焙）、调大 `Stagger Duration`（拉长波浪、减少同屏飞行数）、缩小 `Fly In World Size` |
 | 调了 LogoSwitchInterval 没反应 | 它立即生效，但只影响**下一个停留周期**；确认修改的是接口属性而非仅 Inspector 数值 |
 | Start 没反应 | 查 Console 警告：通常是无签名、或 Logo 未烘焙且贴图不可读 |

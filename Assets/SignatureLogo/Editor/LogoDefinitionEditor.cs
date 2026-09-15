@@ -35,7 +35,8 @@ namespace SignatureLogo.EditorTools
                     Undo.RecordObject(def, "Bake Target Points");
                     var points = LogoTargetGenerator.Generate(
                         def.mask, def.pixelsPerUnit, def.cellSize, def.alphaThreshold,
-                        def.densityByAlpha, def.maxPoints, (int)def.seed, def.pointScale, def.seamlessTiling);
+                        def.densityByAlpha, def.maxPoints, (int)def.seed, def.pointScale, def.seamlessTiling,
+                        def.bridgeThinStrokes);
                     def.bakedPoints = points;
                     def.bakedWidth = def.mask.width / Mathf.Max(1f, def.pixelsPerUnit);
                     def.bakedHeight = def.mask.height / Mathf.Max(1f, def.pixelsPerUnit);
