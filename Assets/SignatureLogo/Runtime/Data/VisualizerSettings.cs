@@ -29,7 +29,7 @@ namespace SignatureLogo
         [Min(0f)] public float startSpreadRadius = 0.75f;
 
         [Tooltip("近景飞入：签名飞过镜头时的显示宽度（世界单位，绝对尺寸）——决定观众能否认出字符。注意：越大同时同屏的大签名越多，性能开销越大")]
-        [Min(0.05f)] public float flyInWorldSize = 0.9f;
+        [Min(0.05f)] public float flyInWorldSize = 0.5f;
 
         [Tooltip("近景飞入：飞行缓动。InQuad=在镜头前停留更久更容易看清（推荐）；OutCubic=快速掠过")]
         public Ease flyInEase = Ease.InQuad;

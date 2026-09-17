@@ -113,3 +113,6 @@ InitTestScene*.unity*
 # Python / 本地压缩包
 __pycache__/
 /Build*.zip
+
+# Unity 生成的解决方案文件（新版后缀）
+*.slnx

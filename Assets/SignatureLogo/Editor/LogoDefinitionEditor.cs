@@ -36,7 +36,7 @@ namespace SignatureLogo.EditorTools
                     var points = LogoTargetGenerator.Generate(
                         def.mask, def.pixelsPerUnit, def.cellSize, def.alphaThreshold,
                         def.densityByAlpha, def.maxPoints, (int)def.seed, def.pointScale, def.seamlessTiling,
-                        def.bridgeThinStrokes);
+                        def.bridgeThinStrokes, def.subCellCentroid);
                     def.bakedPoints = points;
                     def.bakedWidth = def.mask.width / Mathf.Max(1f, def.pixelsPerUnit);
                     def.bakedHeight = def.mask.height / Mathf.Max(1f, def.pixelsPerUnit);

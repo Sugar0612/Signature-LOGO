@@ -10,6 +10,7 @@ namespace SignatureLogo
         public string SourceName;
         public bool SeamlessTiling;
         public bool BridgeThinStrokes;
+        public bool SubCellCentroid;
         public Color32[] Pixels;
         public int Width;
         public int Height;
@@ -29,7 +30,7 @@ namespace SignatureLogo
     public static TargetPoint[] Generate(
         Texture2D mask, float pixelsPerUnit, float cellSize, float alphaThreshold,
         bool densityByAlpha, int maxPoints, int seed, float pointScale, bool seamlessTiling = false,
-        bool bridgeThinStrokes = true)
+        bool bridgeThinStrokes = true, bool subCellCentroid = true)
     {
         if (mask == null) return Array.Empty<TargetPoint>();
         var input = new LogoBakeInput
@@ -37,6 +38,7 @@ namespace SignatureLogo
             SourceName = mask.name,
             SeamlessTiling = seamlessTiling,
             BridgeThinStrokes = bridgeThinStrokes,
+            SubCellCentroid = subCellCentroid,
             Pixels = GetReadablePixels32(mask),
             Width = mask.width,
             Height = mask.height,
@@ -64,8 +66,10 @@ namespace SignatureLogo
             var candidateX = new System.Collections.Generic.List<float>(estimated);
             var candidateY = new System.Collections.Generic.List<float>(estimated);
 
-            // Pass 1：逐格计算平均 alpha 并做基础接受判定
+            // Pass 1：逐格计算平均 alpha 并做基础接受判定；同时累计格内 alpha 加权质心（SubCellCentroid 用）
             var alphaGrid = new float[cellsX * cellsY];
+            var centroidX = input.SubCellCentroid ? new float[cellsX * cellsY] : null;
+            var centroidY = input.SubCellCentroid ? new float[cellsX * cellsY] : null;
             var accepted = new bool[cellsX * cellsY];
             // 拼贴模式用不高于 0.35 的判定阈值：细笔画/软边缘格子不再漏采（完整性优先）
             float baseThreshold = input.SeamlessTiling ? Mathf.Min(input.AlphaThreshold, 0.35f) : input.AlphaThreshold;
@@ -78,13 +82,25 @@ namespace SignatureLogo
                     int x0 = cx * cell;
                     int x1 = Mathf.Min(x0 + cell, w);
                     int sum = 0, n = 0;
+                    long sumAx = 0, sumAy = 0;
                     for (int y = y0; y < y1; y++)
                     {
                         int row = y * w;
-                        for (int x = x0; x < x1; x++) { sum += input.Pixels[row + x].a; n++; }
+                        for (int x = x0; x < x1; x++)
+                        {
+                            byte a = input.Pixels[row + x].a;
+                            sum += a;
+                            if (centroidX != null) { sumAx += (long)x * a; sumAy += (long)y * a; }
+                            n++;
+                        }
                     }
                     int idx = cy * cellsX + cx;
                     alphaGrid[idx] = n > 0 ? sum / (255f * n) : 0f;
+                    if (centroidX != null && sum > 0)
+                    {
+                        centroidX[idx] = sumAx / (float)sum;
+                        centroidY[idx] = sumAy / (float)sum;
+                    }
                     bool ok = alphaGrid[idx] >= baseThreshold;
                     // 散点模式：alpha 加权接受（笔画中心必收，边缘按概率）；拼贴模式强制全收保证密铺
                     if (ok && !input.SeamlessTiling && input.DensityByAlpha && alphaGrid[idx] < 0.999f && rng.NextDouble() > alphaGrid[idx]) ok = false;
@@ -119,18 +135,26 @@ namespace SignatureLogo
                 }
             }
 
-            // Pass 3：收集候选点（格中心 + 抖动；拼贴模式零抖动，精确落在网格中心）
+            // Pass 3：收集候选点。SubCellCentroid：点从格中心移到格内 alpha 加权质心——
+            // 笔画边缘（如汉字的"横"）的采样点沿真实边缘轨迹分布，拼出的笔画笔直、不再台阶化。
+            // 散点模式在此基准上叠加抖动；拼贴模式零抖动，落在质心（全实格 = 格中心，网格整齐性不受影响）。
             for (int cy = 0; cy < cellsY; cy++)
             {
                 int y0 = cy * cell;
                 int y1 = Mathf.Min(y0 + cell, h);
                 for (int cx = 0; cx < cellsX; cx++)
                 {
-                    if (!accepted[cy * cellsX + cx]) continue;
+                    int idx = cy * cellsX + cx;
+                    if (!accepted[idx]) continue;
                     int x0 = cx * cell;
                     int x1 = Mathf.Min(x0 + cell, w);
                     float centerX = (x0 + x1 - 1) * 0.5f;
                     float centerY = (y0 + y1 - 1) * 0.5f;
+                    if (centroidX != null && alphaGrid[idx] > 0f)
+                    {
+                        centerX = Mathf.Clamp(centroidX[idx], x0, x1 - 1);
+                        centerY = Mathf.Clamp(centroidY[idx], y0, y1 - 1);
+                    }
                     float half = input.SeamlessTiling ? 0f : cell * 0.5f;
                     candidateX.Add(Mathf.Clamp(centerX + (float)(rng.NextDouble() * 2.0 - 1.0) * half, 0f, w - 1f));
                     candidateY.Add(Mathf.Clamp(centerY + (float)(rng.NextDouble() * 2.0 - 1.0) * half, 0f, h - 1f));

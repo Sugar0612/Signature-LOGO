@@ -1,6 +1,9 @@
-# Signature Logo 视觉系统 — 架构设计 v1.2
+# Signature Logo 视觉系统 — 架构设计 v1.3
 
 > 环境：Unity 6000.3.20f1 / URP 17.3 + DOTween 1.2.825。
+> **v1.3 变更**：**子格质心采样**（SubCellCentroid，g4）——采样点从格中心移到格内 alpha 加权质心，
+> 笔画边缘沿 Mask 真实轮廓分布，汉字的横/竖等笔画拼出来笔直贴合原图，不再台阶化/锯齿化；
+> 飞入签名再缩小（场景 flyInWorldSize 0.5→0.3，代码默认 0.9→0.5）。
 > **v1.2 变更**：新增**视频背景**（VideoBackground，1.mp4 循环铺底、Logo 深度天然在前）、
 > **签名描边**（SpriteOutline 着色器，亮背景保持可读）、**拼贴密度**（Tile Scale 重叠系数 + cellSize 调密）、
 > 飞入签名缩小（flyInWorldSize 0.9→0.5）、Resources 化自写着色器修复打包剥离、新增打包脚本。
@@ -75,7 +78,10 @@
 1. pixels = GetReadablePixels32(mask)             // 不可读时经 RenderTexture 回读
 2. 网格步进 cellSize：格平均 alpha < threshold 跳过
    散点模式：densityByAlpha 概率加权 + ±cell/2 抖动
-   拼贴模式：零抖动、关闭概率镂空，精确落在网格中心
+   拼贴模式：零抖动、关闭概率镂空
+   SubCellCentroid（默认开）：点取格内 alpha 加权质心而非格中心——
+   笔画边缘（如汉字的"横"）沿真实轮廓分布，拼出的笔画笔直不台阶化；
+   全实格的质心 = 格中心，网格整齐性不受影响
 3. maxPoints>0 且超量：Fisher–Yates(种子) 洗牌取前 N
 4. 像素→本地坐标: localPos = ((x−W/2)/PPU, (y−H/2)/PPU, 0)   // GetPixels32 自下而上，同向换算
 5. 排序：X 升序，X 同按 Y 降序（同列自上而下）
@@ -103,7 +109,7 @@ move:  DOLocalMove(target, moveDuration).SetDelay(delay).SetEase(OutCubic)
 - **NearCamera（默认）从相机身后飞入**：起点按实际相机位置换算（相机平面后方 startBehindCamera 世界单位），XY 在 Logo 四周以 startSpreadRadius×对角线 的半径随机散布；飞行时以绝对可读宽度 flyInWorldSize（世界单位）越过镜头，缓动默认 InQuad（镜头前停留更久、观众能认出字符），临近落位才缩小到拼贴尺寸。
 - **LeftEdge 左缘飞入**：从 Logo 左侧屏幕外弹出（原平面效果，OutBack 弹出）。
 
-Logo 切换（**一律重飞**）：全部签名回到相机身后（瞬移发生在镜头外不可见），按入场方式（默认从相机身后四周散布）重新按左→右波次飞入拼接。烘焙签名含算法版本号（g2|…）：生成算法升级后旧烘焙数据自动失效，运行时自动重新生成。
+Logo 切换（**一律重飞**）：全部签名回到相机身后（瞬移发生在镜头外不可见），按入场方式（默认从相机身后四周散布）重新按左→右波次飞入拼接。烘焙签名含算法版本号（g4|…）：生成算法升级后旧烘焙数据自动失效，运行时自动重新生成。
 
 细节度：拼贴文字的"分辨率" = LogoDefinition.cellSize（采样格步长，像素）；调小 → 更精细、点数按平方增长，DOTween 补间容量随池规模自适应（prewarm×2+512）。
 
@@ -128,7 +134,7 @@ public interface ISignatureLogoVisualizer {
 
 门面：Logos(SO数组) / Switch(LogoSwitchInterval=15) / Formation(stagger 2.0、move 0.6、margin、抖动、缓动) /
 Rendering(baseScale、tint、order、FitToCamera 宽高取小、Outline 描边三参、tileScale 拼贴重叠系数) / Pool(预热覆盖) / Debug(Gizmos、autoStart)。
-`LogoDefinition`：mask、PPU、cellSize、alphaThreshold、densityByAlpha、maxPoints、seed、pointScale、seamlessTiling、烘焙产物。
+`LogoDefinition`：mask、PPU、cellSize、alphaThreshold、densityByAlpha、maxPoints、seed、pointScale、seamlessTiling、subCellCentroid、烘焙产物。
 自定义 Inspector：过期警告 + **烘焙按钮** + 统计信息。
 `VideoBackground`（场景物体）：videoClip、loop、brightness、behindLogoDistance。
 
@@ -153,4 +159,6 @@ Docs/      本文档
 ## 12. 阶段记录
 
 P1-P5 已全部完成并经无头批处理验证（编译零错误 / 逻辑自测 / Play 全链路冒烟）。v1.1 移除球体模式后回归验证通过。
+v1.3：子格质心采样（g4）经 Tools/stroke_compare.py 前后对比验证（两张 Mask 横画台阶消失、边缘笔直），
+Demo Logo 资产已用同算法重烘焙（Tools/rebake_g4.py）；Runtime/Editor 程序集以 Unity Roslyn 独立编译验证零错误。
 v1.2：视频背景 / 描边 / 密集拼贴 / 打包修复（着色器 Resources 化）已实机打包验证（Windows x64，构建日志 Succeeded）。

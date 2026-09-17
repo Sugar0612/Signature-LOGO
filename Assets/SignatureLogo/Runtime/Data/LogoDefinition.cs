@@ -39,6 +39,9 @@ namespace SignatureLogo
         [Tooltip("桥接修复：补采细笔画断裂的格子。粗笔画文字 Logo 建议关闭——它会把复杂字内部的窄缝隙也封死，导致文字糊成一团")]
         public bool bridgeThinStrokes = true;
 
+        [Tooltip("子格质心：采样点从格中心移到格内 alpha 加权质心，沿笔画真实边缘分布——汉字的横、竖等笔画拼出来笔直贴合 Mask，不再台阶化/锯齿化")]
+        public bool subCellCentroid = true;
+
         [Header("Baked（由烘焙按钮生成，勿手改）")]
         public TargetPoint[] bakedPoints = Array.Empty<TargetPoint>();
 
@@ -56,10 +59,11 @@ namespace SignatureLogo
         public string ComputeBakeSignature()
         {
             if (mask == null) return null;
-            return "g3|" + mask.name + "|" + mask.width + "x" + mask.height +
+            return "g4|" + mask.name + "|" + mask.width + "x" + mask.height +
                    "|" + pixelsPerUnit + "|" + cellSize + "|" + alphaThreshold +
                    "|" + densityByAlpha + "|" + maxPoints + "|" + seed + "|" + pointScale +
-                   "|" + seamlessTiling + "|" + (bridgeThinStrokes ? 1 : 0);
+                   "|" + seamlessTiling + "|" + (bridgeThinStrokes ? 1 : 0) +
+                   "|" + (subCellCentroid ? 1 : 0);
         }
 
         /// 拼贴模式下相邻目标点的世界间距（cellSize / PPU）。

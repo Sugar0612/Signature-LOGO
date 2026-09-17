@@ -146,7 +146,7 @@ namespace SignatureLogo
                 var points = LogoTargetGenerator.Generate(
                     logo.mask, logo.pixelsPerUnit, logo.cellSize, logo.alphaThreshold,
                     logo.densityByAlpha, logo.maxPoints, (int)logo.seed, logo.pointScale, logo.seamlessTiling,
-                    logo.bridgeThinStrokes);
+                    logo.bridgeThinStrokes, logo.subCellCentroid);
                 _runtimePointCache.Add(logo, points);
                 Debug.LogWarning(
                     hasBaked

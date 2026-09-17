@@ -247,7 +247,7 @@ MonoBehaviour:
     coldStartPose: 1
     startBehindCamera: 1.5
     startSpreadRadius: 0.75
-    flyInWorldSize: 0.5
+    flyInWorldSize: 0.3
     flyInEase: 5
     staggerDuration: 2
     moveDuration: 0.6
