@@ -143,6 +143,10 @@ public class SignatureTeamIntegration : MonoBehaviour
 | 飞入的签名看不清 | 调大 Formation 的 `Fly In World Size`（签名飞过镜头时的绝对显示宽度，世界单位；越大越清晰、也越大）。演示场景当前 0.5（原 0.9，按需求缩小过）；`Fly In Ease` 保持 InQuad（镜头前停留更久） |
 | LOGO 拼出来不够醒目 / 不够密集 | 三处一起调：`Rendering → Target Height Fraction`（Logo 占屏比例，建议 0.9）；`Rendering → Tile Scale`（拼贴重叠系数，>1 时签名相互重叠、笔画更实，扁宽签名图建议 2 左右）；Logo 资产的 `Cell Size` 调小（网格更密，**改完需重新烘焙**） |
 | 复杂字（笔画密的字）糊成一团 | 关闭该 Logo 资产的 `Bridge Thin Strokes`（桥接修复会把复杂字内部的窄缝隙封死，粗笔画文字 Logo 应关闭），并把 `Cell Size` 降到字内窄缝宽度以下（如 3）；**改完需重新烘焙** |
+| LOGO 边缘粗糙、有锯齿 | 两招叠加：① Logo 资产 `Cell Size` 调小（3→2，台阶细度减半，点数约 ×2.2，注意性能）；② g6 采样自带边缘抗锯齿（边界格按覆盖率概率接受 + 仅边界格按覆盖率缩小，形成渐变边缘），确保烘焙签名是 g6 即生效 |
+| 文字内部出现黑色空洞 | g5 及更早的边缘缩放会误伤字形内部的部分覆盖格——g6 已修复（只缩真边界格，内部格保持原尺寸）。确认烘焙签名为 g6 |
+| 细笔画/英文小字缺笔 | 该 Logo 资产的 `Alpha Threshold` 调低（如 0.2，拼贴模式实际判定阈值为 min(阈值, 0.35)）；细笔画专用，粗笔画 Logo 不必动 |
+| Logo 切换瞬间卡顿 | 万级单位的 SetActive 开关 + 补间创建集中在单帧导致——现已内置单位复用（零 SetActive 切换）+ 补间分帧创建；若仍卡可减小点数（调大 `Cell Size`） |
 | 调参不想反复进 Unity 试 | 用 `Tools/mosaic_*.py` 离线预览：复刻真实采样算法 + 真实签名图，渲染不同参数组合的对比图（依赖 Python + Pillow） |
 | 帧率下降 | 减小目标点数量（调大 `Cell Size` 后重新烘焙）、调大 `Stagger Duration`（拉长波浪、减少同屏飞行数）、缩小 `Fly In World Size` |
 | 调了 LogoSwitchInterval 没反应 | 它立即生效，但只影响**下一个停留周期**；确认修改的是接口属性而非仅 Inspector 数值 |

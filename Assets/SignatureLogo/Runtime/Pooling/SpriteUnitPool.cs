@@ -63,6 +63,15 @@ namespace SignatureLogo
             return unit;
         }
 
+        /// 静默租借：不激活 GameObject，激活时机交由调用方（配合分帧启动，避免万级 SetActive 尖峰）。
+        public SpriteUnit LeaseDormant()
+        {
+            var unit = _free.Count > 0 ? _free.Pop() : Create();
+            unit.CachedTransform.DOKill();
+            _leased.Add(unit);
+            return unit;
+        }
+
         public void Release(SpriteUnit unit)
         {
             if (unit == null || !_leased.Remove(unit)) return;

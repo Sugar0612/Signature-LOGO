@@ -267,7 +267,7 @@ MonoBehaviour:
     outlineEnabled: 1
     outlineColor: {r: 0, g: 0, b: 0, a: 0.85}
     outlineWidth: 2.5
-    tileScale: 1.3
+    tileScale: 2
   prewarmOverride: 0
   showTargetPointGizmos: 1
   autoStartWhenSpritesReady: 0

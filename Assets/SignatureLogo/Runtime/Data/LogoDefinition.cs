@@ -59,7 +59,7 @@ namespace SignatureLogo
         public string ComputeBakeSignature()
         {
             if (mask == null) return null;
-            return "g4|" + mask.name + "|" + mask.width + "x" + mask.height +
+            return "g6|" + mask.name + "|" + mask.width + "x" + mask.height +
                    "|" + pixelsPerUnit + "|" + cellSize + "|" + alphaThreshold +
                    "|" + densityByAlpha + "|" + maxPoints + "|" + seed + "|" + pointScale +
                    "|" + seamlessTiling + "|" + (bridgeThinStrokes ? 1 : 0) +

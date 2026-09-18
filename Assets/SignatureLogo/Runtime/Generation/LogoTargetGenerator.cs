@@ -65,6 +65,10 @@ namespace SignatureLogo
             int estimated = cellsX * cellsY / 4 + 16;
             var candidateX = new System.Collections.Generic.List<float>(estimated);
             var candidateY = new System.Collections.Generic.List<float>(estimated);
+            // 拼贴模式的每点相对缩放（边缘抗锯齿：覆盖率→缩放渐变；内部格=1 不影响密铺）
+            var candidateS = input.SeamlessTiling ? new System.Collections.Generic.List<float>(estimated) : null;
+            const float EdgeScaleMin = 0.55f;  // 刚过阈值的最小缩放
+            const float EdgeScaleFloor = 0.35f; // 抖动区下限的缩放
 
             // Pass 1：逐格计算平均 alpha 并做基础接受判定；同时累计格内 alpha 加权质心（SubCellCentroid 用）
             var alphaGrid = new float[cellsX * cellsY];
@@ -105,6 +109,20 @@ namespace SignatureLogo
                     // 散点模式：alpha 加权接受（笔画中心必收，边缘按概率）；拼贴模式强制全收保证密铺
                     if (ok && !input.SeamlessTiling && input.DensityByAlpha && alphaGrid[idx] < 0.999f && rng.NextDouble() > alphaGrid[idx]) ok = false;
                     accepted[idx] = ok;
+                }
+            }
+
+            // Pass 1.5（拼贴模式）：边缘抗锯齿——阈值下方 [DitherFloor, baseThreshold) 的边缘格子
+            // 按覆盖率概率接受（空间抖动），配合 Pass 3 的覆盖率缩放把二元台阶变成渐变边缘。
+            if (input.SeamlessTiling)
+            {
+                const float DitherFloor = 0.15f;
+                for (int idx = 0; idx < alphaGrid.Length; idx++)
+                {
+                    if (accepted[idx]) continue;
+                    float c = alphaGrid[idx];
+                    if (c < DitherFloor) continue;
+                    if (rng.NextDouble() < c / baseThreshold) accepted[idx] = true;
                 }
             }
 
@@ -158,6 +176,29 @@ namespace SignatureLogo
                     float half = input.SeamlessTiling ? 0f : cell * 0.5f;
                     candidateX.Add(Mathf.Clamp(centerX + (float)(rng.NextDouble() * 2.0 - 1.0) * half, 0f, w - 1f));
                     candidateY.Add(Mathf.Clamp(centerY + (float)(rng.NextDouble() * 2.0 - 1.0) * half, 0f, h - 1f));
+                    if (candidateS != null)
+                    {
+                        // g6：只缩小"真边界格"（4 邻域存在未接受格或出界）——字形内部的部分覆盖格保持 1.0，
+                        // 避免内部签名被缩小后露出黑底空洞；边界格按覆盖率渐变，保留边缘抗锯齿。
+                        bool edge = cx == 0 || cy == 0 || cx == cellsX - 1 || cy == cellsY - 1
+                                    || !accepted[idx - 1] || !accepted[idx + 1]
+                                    || !accepted[idx - cellsX] || !accepted[idx + cellsX];
+                        float s = 1f;
+                        if (edge)
+                        {
+                            float c = alphaGrid[idx];
+                            if (c >= baseThreshold)
+                            {
+                                float t = Mathf.Clamp01((c - baseThreshold) / (1f - baseThreshold));
+                                s = Mathf.Lerp(EdgeScaleMin, 1f, t * t * (3f - 2f * t)); // smoothstep 渐变
+                            }
+                            else
+                            {
+                                s = Mathf.Lerp(EdgeScaleFloor, EdgeScaleMin, Mathf.Clamp01(c / baseThreshold));
+                            }
+                        }
+                        candidateS.Add(s);
+                    }
                 }
             }
 
@@ -182,6 +223,7 @@ namespace SignatureLogo
                     int j = rng.Next(i + 1);
                     (candidateX[i], candidateX[j]) = (candidateX[j], candidateX[i]);
                     (candidateY[i], candidateY[j]) = (candidateY[j], candidateY[i]);
+                    if (candidateS != null) (candidateS[i], candidateS[j]) = (candidateS[j], candidateS[i]);
                 }
                 count = input.MaxPoints;
             }
@@ -201,7 +243,7 @@ namespace SignatureLogo
                 {
                     position = new Vector3(lx, ly, 0f),
                     rotationZ = 0f,
-                    scale = input.PointScale,
+                    scale = candidateS != null ? input.PointScale * candidateS[i] : input.PointScale,
                     normalizedX = 0f
                 });
             }
